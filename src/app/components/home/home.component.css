@@ -9,13 +9,16 @@
     text-align: center;
     justify-content: center;
     margin-top: 10em;
-    border: solid black;
+    border:solid 3px #41403E;
+    border-top-left-radius: 255px 15px;
+    border-top-right-radius: 15px 225px;
+    border-bottom-right-radius: 225px 15px;
+    border-bottom-left-radius:15px 255px;
     width: 20rem;
 }
 
 .players-input-container{
-    border: 1px solid grey;
-    border-style: dashed;
+
     padding: 10px;
     margin: 10px 0px;
 }
@@ -25,10 +28,15 @@
     width: 50px;
     font-size: 35px;
     appearance: none;
+    border-top-left-radius: 255px 15px;
+    border-top-right-radius: 15px 225px;
+    border-bottom-right-radius: 225px 15px;
+    border-bottom-left-radius:15px 255px;
+    background-color: #96969636;
+
 }
 
 .buttons div{
     display: flex;
+    margin: 0.5em;
 }
-
-

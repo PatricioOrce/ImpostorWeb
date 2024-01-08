@@ -1,5 +1,5 @@
 /* You can add global styles to this file, and also import other style files */
-.button-29 {
+/* .button-29 {
     margin-top: 40px;
     margin-bottom: 40px;
     align-items: center;
@@ -44,7 +44,32 @@
   .button-29:active {
     box-shadow: #e03c3c 0 3px 7px inset;
     transform: translateY(2px);
-  }
+  } */
+body{
+  background-color: #b8b8b8;
+  background-image: url("https://www.transparenttextures.com/patterns/grid-me.png");
+}
+
+  
+.button-29 {
+    background:transparent;
+    padding:0.5rem 0.5rem;
+    margin:1rem 0.5rem;
+    font-size:1rem;
+
+    border-top-left-radius: 235px 15px;
+    border-top-right-radius: 15px 225px;
+    border-bottom-right-radius: 225px 15px;
+    border-bottom-left-radius:15px 255px;
+}
+
+button:hover{
+  box-shadow:2px 8px 4px -6px hsla(0,0%,0%,.3);
+}
+.button-29:active {
+  box-shadow: #d1d1d1 0 3px 7px inset;
+  transform: translateY(2px);
+}
 
   app-spinner {
     position: fixed;
@@ -54,4 +79,10 @@
     top:0;
     background: #fff;
     opacity: 0.5;
+}
+
+
+p{
+  font-family: 'Courier New', Courier, monospace;
+  font-size: x-large;
 }

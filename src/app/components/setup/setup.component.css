@@ -17,14 +17,16 @@
     text-align: center;
     padding: 10px;
     font-family: 'Courier New', Courier, monospace;
-    background: linear-gradient(rgb(245, 21, 32), rgb(241, 56, 180));
-    opacity: 70%;
+    font-size: x-large;
+    opacity: 90%;
     margin-bottom: 20px;
 }
 .first-container div input{
     width: 300px;
     height: 150px;
     font-size: x-large;
+    background-color: #96969636;
+
 }
 
 app-spinner{
