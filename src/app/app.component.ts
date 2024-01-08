@@ -1,4 +1,6 @@
 import { Component } from '@angular/core';
+import { ManagerService } from './services/manager.service';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-root',
@@ -7,4 +9,13 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'ImpostorWeb';
+
+  constructor(private router: Router, private gameService: ManagerService) {
+    
+  }
+
+  goBack(){
+    this.gameService.restart();
+    this.router.navigate(['/'])
+  }
 }

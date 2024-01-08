@@ -1,0 +1,17 @@
+<div *ngIf="!showWord">
+    <app-spinner *ngIf="showSpinner"/>
+    <div class="app" *ngIf="!showSpinner">
+        <div class="first-container">
+            <div class="word-input">
+                <label for="">Inserta la palabra:</label>
+                <input type="text" [(ngModel)]='word' placeholder="Ejemplo: Arbol">
+                <button class="button-29" role="button" (click)="onComenzar()" >Aceptar</button>
+            </div>
+        </div>
+    </div>
+</div>
+<div *ngIf="showWord" class="word-container" >
+    <h1>{{word}}</h1>
+    <button *ngIf="!playAgain" id="next" class="button-29" (click)="next()">Siguiente</button>
+    <button *ngIf="playAgain" class="button-29" (click)="startAgain()">Volver a Jugar</button>
+</div>

@@ -1,0 +1,34 @@
+.app{
+    display: flex;
+    justify-content: center;
+}
+
+.first-container{
+    display: grid;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin-top: 10em;
+    border: solid black;
+    width: 20rem;
+}
+
+.players-input-container{
+    border: 1px solid grey;
+    border-style: dashed;
+    padding: 10px;
+    margin: 10px 0px;
+}
+
+.players-input-container input{
+    height: 50px;
+    width: 50px;
+    font-size: 35px;
+    appearance: none;
+}
+
+.buttons div{
+    display: flex;
+}
+
+

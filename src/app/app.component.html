@@ -1,24 +1,6 @@
-
-<div class="app">
-  <div class="first-container">
-  
-    <div class="title">
-      <h2 style="font-family: 'Courier New', Courier, monospace;">Impostor!</h2>
+<router-outlet></router-outlet>
+<footer>
+    <div class="go-home" (click)="goBack()">
+        <img src="../assets/atras.png" alt="Inicio">
     </div>
-    <div class="players-input-container">
-      <p>Ingresa la cantidad de jugadores.</p>
-      <input type="number">
-    </div>
-    <div class="buttons">
-      <div class="input-radio">
-        <input id="normal" type="radio" name="options" value="1">
-        <label for="normal">Juego Normal (Inserta una palabra)</label>
-      </div>
-      <div class="input-radio">
-        <input id="random" type="radio" name="options" value="2">
-        <label for="random">Random (Palabra elegida por el juego)</label>
-      </div>
-      <button class="button-29" role="button">Comenzar</button>
-    </div>
-  </div>
-</div>
+</footer>

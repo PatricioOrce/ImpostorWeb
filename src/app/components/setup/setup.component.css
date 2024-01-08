@@ -1,0 +1,41 @@
+
+.app{
+    display: flex;
+    justify-content: center;
+    margin-top: 150px;
+}
+
+.first-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.first-container div{
+    display: grid;
+}
+.first-container div label{
+    text-align: center;
+    padding: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    background: linear-gradient(rgb(245, 21, 32), rgb(241, 56, 180));
+    opacity: 70%;
+    margin-bottom: 20px;
+}
+.first-container div input{
+    width: 300px;
+    height: 150px;
+    font-size: x-large;
+}
+
+app-spinner{
+    margin: 150px;
+    margin-top: 65%;
+}
+
+.word-container{
+    display: grid;
+    justify-content: center;
+    margin-top: 70%;
+    border: 1px dotted grey;
+    background-color: aliceblue;
+}
